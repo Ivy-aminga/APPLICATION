@@ -1,60 +1,131 @@
-.content{
-    width: 40%;
-    height: 20%;
-    
+*{
+    padding: 0;
+    margin-top:  2%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
-.image{
-    float: right;
-    width: 20%;
-    background-position: right;
-    height:20%;
-    background-size: contain;
-    
-    
-    
-}
-  nav{
- width: 60%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px 0;
-  }  
-nav ul{
-list-style: none;
-display: flex;
-padding: 12px;
-float: right;
-justify-content: space-between;
-padding-inline-start: 50;
-width: 50%;
-text-align: right;
-}
-nav ul li{
-display: flex;
-list-style: none;
-}
-nav ul li a{
-color:black;
-text-decoration: none;
-width: 70%;
-align-items: center;
-justify-content: space-between;
-padding: 12px;
+nav{
+    height: 50px;
+    width: 100px;
+    justify-content: space-between;
 }
 
-.button{
-    background-color: blue;
+label.logo{
     color: black;
-    float: right;
+    font-size: 50px;
+    padding: 50px 100px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+nav ul{
+    
+    margin-left: 500px;
+    display: flex;
+
+}
+
+nav ul li{
+
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#button{
+    font-size: large;
+    
+    background-color: white;
+   text-align: center ;
+   border-radius: 50px;
+   border-color: blue;
+  justify-content: flex-end;
+   color: blue;
+   padding: 5px 30px;
+   
 }
 
 .content{
-    padding: left;
-    
+margin-top: 15%;
+
+
+}
+
+#header1{
+    font-size: 50px;
+    color: blueviolet;
+}
+#header2{
+    font-size: 45px;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+#button2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    border-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+
+#button3{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: white;
+    font-size: medium;
+   
+}
+
+img{
+    border-radius: 20px;
+    width: 30%;
+    height: 10%;
+  margin-left: 50%;
+    margin-top: -35%;
+ 
+
+}
+
+p{
+    margin-bottom: 2%;
+
+}
+
+#button4{
+    background-color: whitesmoke;
+    color: blueviolet;
+    text-align: center;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
 }
 
 
-
-
-
+#button5{
+    background-color: whitesmoke;
+    color: blueviolet;
+    text-align: center;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+}
